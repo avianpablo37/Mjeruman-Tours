@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Tourism</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome for social icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+ 
+</head>
+<body>
+
+<header>
+  <h1>Explore the World</h1>
+  <p>Your adventure starts here</p>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-teal" style="background-color:#00796B;">
+  <div class="container">
+    <a class="navbar-brand" href="#">Tourism</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="about" class="container py-5">
+  <h2>About Us</h2>
+  <p>We specialize in crafting unforgettable travel experiences. Our team helps you discover the best destinations worldwide.</p>
+</section>
+
+<section id="destinations" class="bg-light py-5">
+  <div class="container">
+    <h2 class="mb-4">Popular Destinations</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+       
+          <div class="card-body">
+            <h5 class="card-title">Arusha</h5>
+            <p class="card-text">The city of lights and pure nature</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+        
+          <div class="card-body">
+            <h5 class="card-title">Tanga</h5>
+            <p class="card-text">Culture, innovation, and tradition in one place.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+      
+          <div class="card-body">
+            <h5 class="card-title">Mwanza</h5>
+            <p class="card-text">Blue domes, sunsets, and rock shores</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="py-5 text-center">
+  <div class="container">
+    <h2>Photo Gallery</h2>
+    <div id="carouselGallery" class="carousel slide mt-4" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="C:\Users\USER\Pictures\Camera Roll\beach.jpeg" class="d-block w-100 gallery-img" alt="Beach">
+        </div>
+        <div class="carousel-item">
+          <img src="C:\Users\USER\Pictures\Camera Roll\mountain.jpeg" class="d-block w-100 gallery-img" alt="Mountain">
+        </div>
+        <div class="carousel-item">
+          <img src="C:\Users\USER\Pictures\Camera Roll\city.jpeg" class="d-block w-100 gallery-img" alt="City">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section id="location" class="bg-light py-5">
+  <div class="container">
+    <h2 class="mb-3">Our Location</h2>
+    <p>Visit our main office in Arusha, Tanzania:</p>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!12!1m3!1d199611.15004642896!2d35.267428683115!3d-3.200019063191869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1837e64fd8e64fd8c5bb1%3A0x7aa18b91d580b06d!2sNgorongoro%20Conservation%20Area!5e0!3m2!sen!2stz!4v1715332712345"width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section id="contact" class="container py-5">
+  <h2>Contact Us</h2>
+  <p>Email:<a href="avianpablo@gmail.com">avianpablo@gmail.com</a></p>
+  <p>Phone: <a href="tel:+255653168404">+255653168404</a></p>
+  <form>
+    <div class="mb-3">
+      <label class="form-label">Name</label>
+      <input type="text" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Email</label>
+      <input type="email" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Message</label>
+      <textarea class="form-control" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Send Message</button>
+  </form>
+</section>
+
+<footer class="text-center">
+  <p>&copy; 2025 Explore World. All rights reserved.</p>
+  <div class="social-icons mt-3">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-x-twitter"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
